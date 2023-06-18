@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
-
+const generateMarkdownFile = require('./utils/generateMarkdown.js');
+const fs = require('fs');
 // TODO: Create an array of questions for user input
 // ADD VALIDATION TO QUESTIONS!!!!!!!
 const questions = [
@@ -53,10 +54,23 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+function writeToFile(data) {
+    fs.writeFile('generatedReadMe.MD', data, (err) => {
+        if(err) {
+            console.log(err)
+        } else {
+            console.log('Success!')
+        }
+    })
+}
 // TODO: Create a function to initialize app
-function init() {}
-
+function init() {
+    inquirer.prompt(questions)
+    .then(function(data) {
+        console.log(data);
+    let fileName = generateMarkdownFile(data);   
+    writeToFile(fileName);
+    })
+}
 // Function call to initialize app
 init();
