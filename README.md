@@ -17,7 +17,7 @@ package-lock.JSON
 
 Screencastify video - ![alt text](./Develop/video/Untitled_%20Jun%2018%2C%202023%203_16%20PM.mp4)
 
-![alt text](./Develop/images/Screenshot%202023-06-18%20at%201.55.07%20PM.png)
+![alt text](./Develop/images/Screenshot%202023-06-18%20at%203.50.57%20PM.png)
 
 ## Credits
 
