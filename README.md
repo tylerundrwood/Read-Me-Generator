@@ -15,7 +15,7 @@ package-lock.JSON
 
 - You use the termial and type in the info that is required for your READ ME
 
-Screencastify video link - ![alt text](./Develop/video/Untitled_%20Jun%2018%2C%202023%203_16%20PM.webm)
+Screencastify video - ![alt text](./Develop/video/Untitled_%20Jun%2018%2C%202023%203_16%20PM.mp4)
 
 ![alt text](./Develop/images/Screenshot%202023-06-18%20at%201.55.07%20PM.png)
 
